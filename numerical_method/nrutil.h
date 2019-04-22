@@ -112,7 +112,7 @@ template<class T>inline const T& NRVec<T>::operator[](const int i)const {
 	return v[i];
 }
 
-template<class T>inline int& NRVec<T>::size()const {
+template<class T>inline int NRVec<T>::size()const {
 	return nn;
 }
 
